@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import TransactionItem from "./TransactionItem.js";
+import TransactionItem from "./TransactionItems";
 
 function Transactions() {
   const [transactions, setTransactions] = useState([]);
